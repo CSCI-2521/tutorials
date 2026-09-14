@@ -6,7 +6,7 @@ We will use two different apps for coding:
 
 Instructions for setting these up follow.
 
-## Install a subscription-based app
+## Set up a subscription-based app
 The three biggest players in the frontier AI model landscape are Open AI, Anthropic, and Google. Each of them offers a consumer subscription that currently gives far more AI usage then you can get by paying directly for AI on a per token basis. They each have their own special agentic coding app that works well with their own models:
 
 | Company | Product | Current Models (as of Sep 2026) |
@@ -15,17 +15,33 @@ The three biggest players in the frontier AI model landscape are Open AI, Anthro
 | Anthropic | Claude Code/Cowork App | Claude Fable 5.1 (released Sep 1, 2026, most capable GA model); Claude Opus 5; Claude Sonnet 5; Claude Haiku 4.5; Claude Mythos 5.1 (restricted access) |
 | Google | Antigravity | Gemini models|
 
+By default, we will use the ChatGPT app from OpenAI, because they are currently (through October 2026) offering a free 4-month GPT Plus subscription to students.
+
+### 1. Sign up for a "Plus" or "Pro" subscription
+If this free offer for 4 months of GPT Plus applies to you, you can sign up here: https://z.umn.edu/2521chatgptoffer
+If not, or if you prefer to use another provider, you can sign up for Claude Pro ($20/month if billed monthly) at https://claude.ai, or Google AI Pro ($19.99/month) at https://gemini.google.com.
+
+### 2. Download and install the app, and sign in
+If using ChatGPT, go to https://chatgpt.com/download/. Download and install the ChatGPT app on your computer. Open it and sign in.
+
+If using Claude, go to https://claude.com/download. Download and install the Claude Desktop app, then open the app and sign in.
+
+If using Gemini (Google), go to https://antigravity.google/download. Download and install the Antigravity app, then open the app and sign in.
+
 ## Set up an API-based app
 By default, we will use OpenRouter as our API-based inference provider, Visual Studio Code (VS Code) as our coding app, and the Kilo Code extension inside VS Code to manage our agentic coding interactions. But there are some alternatives discussed below.
 
 ### 1. Choose an API provider
-- Openrouter, https://openrouter.ai/
 
-Openrouter is probably the biggest inference provider because they route to many different back-end providers. They are an aggregator for other providers. Sometimes lower rates, sometimes faster, and 400+ models to choose from. Downside is you don't know where (in the world) your queries are getting sent. It is possible to pin Openrouter inference to Europe-only, by replacing their URL with `https://eu.openrouter.ai`. This does not guarantee very low impact data centers because there are some data centers, especially in southern Europe, that have moderately high water usage. But the European data centers are, on average, much better than US data centers. However, the model options are much more restricted when using only the EU region. For example, at time of writing, GLM 5.3 Flash is not available through Openrouter in EU only, although DeepSeek V4 Flash 0713 is. Still, this would give you the flexibility to switch between EU and global if you found that you needed more variety of models.
+There are many options. Top three recommendations for this class:
 
 - TensorX, https://tensorx.ai/ (Recommended)
 
 Currently operating only in Finland and Ireland (according to their sales rep). Only has open-weights models (not the big proprietary AI models like GPT, Claude, Gemini). But the proprietary models are generally too expensive to use on a $20 budget anyway, and some of the open-weights models are good enough for our needs.
+
+- Openrouter, https://openrouter.ai/
+
+Openrouter is probably the biggest inference provider because they route to many different back-end providers. They are an aggregator for other providers. Sometimes lower rates, sometimes faster, and 400+ models to choose from. Downside is you don't know where (in the world) your queries are getting sent. It is possible to pin Openrouter inference to Europe-only, by replacing their URL with `https://eu.openrouter.ai`. This does not guarantee very low impact data centers because there are some data centers, especially in southern Europe, that have moderately high water usage. But the European data centers are, on average, much better than US data centers. However, the model options are much more restricted when using only the EU region. For example, at time of writing, GLM 5.3 Flash is not available through Openrouter in EU only, although DeepSeek V4 Flash 0713 is. Still, this would give you the flexibility to switch between EU and global if you found that you needed more variety of models.
 
 - Lyceum, https://lyceum.ai/
 Same as TensorX but currently operating only in Finland (according to their sales rep). This one requires more steps to set up below.
