@@ -20,7 +20,7 @@ These are just a few Benchmark/Leaderboard sites for comparing model performance
 - [LiveBench](https://livebench.ai). Another leaderboard with slightly different benchmarks.
 - [Artificial Analysis](https://artificialanalysis.ai/). Another leaderboard; fewer benchmarks, gives a single "intelligence index" and a "Cost per task".
 
-Use these links to answer these questions:
+Use the links to answer these questions:
 
 1. Which are the top 3 models for overall intelligence...
    1. If money is no issue?
