@@ -24,9 +24,10 @@ Use the links to answer these questions:
 
 1. Which are the top 3 models for overall intelligence...
    1. If money is no issue?
-   2. If you are on a budget?
+   2. If you are on a budget but still want quality?
+   3. If you need an extremely cheap model (for high-scale work)
 2. Which model is best for coding...
    1. If money is no issue?
-   2. If you are on a budget?
+   2. If you are on a budget but still want quality?
 3. How do the top open models compare to the top proprietary models?
-4. How large (total parameters and "active" parameters) are the best models? You will have to do some searching.
+4. How large (total parameters and "active" parameters) are the best models? You may have to do some searching to answer this.
