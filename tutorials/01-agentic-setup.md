@@ -58,7 +58,7 @@ A much longer list of possible providers is available here: https://docs.google.
 Once you have chosen your API inference provider, sign up for an account, and purchase $20 of credit to use for AI inference on your API key. There will be a page that shows you your API key or that lets you create an API key. Copy this API key and save it somewhere secure, like in a password manager. If possible, just keep this window open while you do the next steps so that you can copy the API key and paste it into another app directly.
  
 ### 3. Install your code editor
-We will use Visual Studio Code. Download and install the app on your computer: https://visualstudio.microsoft.com
+We will use Visual Studio Code. Download and install the app on your computer: [https://code.visualstudio.com](https://code.visualstudio.com/)
 
 ### 4. Install an agentic coding extension in VS Code
 VS code does offer a built-in agentic coding tool, but they don't easily show your token usage and API spending in real time.
