@@ -105,6 +105,8 @@ Make sure your provider is working inside Kilo code extension, inside VS Code.
 4. If you used OpenRouter, click your profile name top right, then Privacy, then turn *on* all of the toggles under Zero data retention, and turn *off* all of the toggles under Data Training:
 <img height="800" alt="image" src="https://github.com/user-attachments/assets/2a5cf86e-4063-4f05-89c0-c829f917786e" />
 
-5. 
-6. s
+5. For ChatGPT/OpenAI, go to the web version at https://chatgpt.com. Click your username bottom left, then "Settings":
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/ac8ba97f-9357-4654-9a07-c67f92bc49f5" />
+Then "Data controls", then uncheck these toggles (not sure what the 3rd one means):
+<img height="800" alt="image" src="https://github.com/user-attachments/assets/71027866-9609-42ce-979d-c5185047e22f" />
 
