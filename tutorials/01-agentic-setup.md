@@ -96,3 +96,15 @@ Make sure your provider is working inside Kilo code extension, inside VS Code.
 3. Ask a simple question, like "what model is this?". It should answer, something like this:
 <img width="1382" height="951" alt="image" src="https://github.com/user-attachments/assets/ebeaf3c0-32fd-4b50-908a-e5addc225129" />
 
+### 6. Privacy settings
+1. VS code doesn't use your data as long as you're not logged in to it and using "Copilot" as your AI. 
+2. Kilo does not claim that they can train on your data, but they do say that you are subject to the privacy policy of the API provider you use. Kilo is a harness here, not the actual inference provider. See https://kilo.ai/privacy.
+3. If you used TensorX, they claim zero data retention, although it's always good to read their privacy policy:
+<img width="1161" height="587" alt="image" src="https://github.com/user-attachments/assets/d6e865c6-70a1-49d9-8caf-884cd41ccde6" />
+
+4. If you used OpenRouter, click your profile name top right, then Privacy, then turn *on* all of the toggles under Zero data retention, and turn *off* all of the toggles under Data Training:
+<img height="800" alt="image" src="https://github.com/user-attachments/assets/2a5cf86e-4063-4f05-89c0-c829f917786e" />
+
+5. 
+6. s
+
