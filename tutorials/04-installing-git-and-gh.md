@@ -206,7 +206,7 @@ git config --global user.email "the-email-you-used-for-github@example.com"
 gh auth status
 ```
 
-You should see a checkmark next to both `github.com` and `git`. ✅
+You should see a checkmark next to `Logged in to github.com`. ✅
 
 ---
 
