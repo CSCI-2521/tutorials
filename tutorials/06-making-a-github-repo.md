@@ -25,6 +25,17 @@ Click "Add people"
 
 Then add me, `danknights`.
 
+# Make your repo private if it's public
+
+In your repo, go to Settings
+
+<img width="167" height="90" alt="image" src="https://github.com/user-attachments/assets/966469ac-d77e-4e9a-9dca-84b183f0aa29" />
+
+Scroll down to the "Danger Zone" and change from Public to Private:
+<img width="1443" height="210" alt="image" src="https://github.com/user-attachments/assets/514e0037-4bdd-4aae-a0a9-8bc57eafa86d" />
+
+
+
 # Get a clone of the repo on your computer
 
 On your repo on github.com, click Code and copy the path to the repo:
