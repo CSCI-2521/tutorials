@@ -9,6 +9,22 @@ Click "Use this template":
 
 You now have your own copy. 
 
+# Add the instructors
+
+On your repo on github.com, click Settings:
+
+<img width="239" height="124" alt="image" src="https://github.com/user-attachments/assets/cf57e948-4d89-4e67-bb16-ec96fc3bc0f9" />
+
+Then Collaborators on the left:
+
+<img height="170" alt="image" src="https://github.com/user-attachments/assets/683b1ded-6192-423a-83bb-bef32761aebe" />
+
+Click "Add people"
+
+<img width="604" height="272" alt="image" src="https://github.com/user-attachments/assets/9f7cf861-821b-42dd-8a1e-cb3653ae1451" />
+
+Then add me, `danknights`.
+
 # Get a clone of the repo on your computer
 
 On your repo on github.com, click Code and copy the path to the repo:
