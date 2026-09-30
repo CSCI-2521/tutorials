@@ -1,7 +1,7 @@
 # Making a Github repo
 This tutorial covers how to copy the repo for the course project and get it set up in VS code and ChatGPT, and then how to make a brand new repo for other testing or projects.
 
-# Getting your own copy of the project repo
+# Part 1. Getting your own copy of the project repo
 ## 1. Copy the project template
 Go to https://github.com/CSCI-2521/project-template.
 
@@ -82,7 +82,7 @@ Then name the project something convenient. Then add the folder that you created
 
 ---
 
-# Making a brand new empty repo
+# Part 2. Making a brand new empty repo
 If you are working on something that is not the class project, like you want to start something new or run a class demo, follow these instructions.
 
 1. Go to GitHub. Make sure you are logged in. Then click "+" top right, and "New repository"
