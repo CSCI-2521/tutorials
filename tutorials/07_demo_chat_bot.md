@@ -1,4 +1,4 @@
-# Making and deploying a chat bot
+# Part 1. Making and deploying a chat bot
 In this tutorial, we will make a simple LLM chat bot and deploy it up to the internet on Render.com.
 
 Disclaimer: we will not follow our normal coding practices for this because it is just a demo that we are planning to throw away afterward. The point of this exercise is to practice pushing and deploying the code, not to practice agentic coding. This is a very simple app that is easy for the LLM to write, and it doesn't have any features, so it will work fine without the reviewing loop.
@@ -90,11 +90,16 @@ Please start the app so I can try it and give me a link.
 
 If your app doesn't work, tell ChatGPT. Be sure to copy and paste any errors that you see, or give it a screenshot.
 
+At the end of this step, your app should be working on your local computer.
+
 ```
 Not working. Got this error: ... (paste error or screen capture, or describe what happened)
 ```
 
-## 8. Commit and push to Github.com
+---
+# Part 2: Deploy online
+
+## 1. Commit and push to Github.com
 
 Ask ChatGPT to commit the code and push it up to Github:
 
@@ -102,7 +107,7 @@ Ask ChatGPT to commit the code and push it up to Github:
 Please commit and push.
 ```
 
-## 9. Connect a Render Web Server
+## 2. Connect a Render Web Server
 
 ### 1. Go to Render.com.
 
@@ -155,24 +160,28 @@ Be sure to choose $0
 
 <img height="200" alt="image" src="https://github.com/user-attachments/assets/d2d5afda-061a-461b-bc50-772359998506" />
 
-## 8. Call it .env, enter your API key
+### 8. Call it .env, enter your API key
 <img height="380" alt="image" src="https://github.com/user-attachments/assets/41be2e5a-db74-4203-9f37-8b2eb10ea74f" />
 
 ### 9. Deploy
 
 <img height="130" alt="image" src="https://github.com/user-attachments/assets/4362e8b2-d56b-4bb8-bbd9-4307b4ee64c4" />
 
-### 10. Try it out
+## 3. Test the deployed app
 
 <img height="200" alt="image" src="https://github.com/user-attachments/assets/e0cb2fe6-3ed8-4a06-b723-f5ca72032a6b" />
 
-### 11. Debug if not working
+## 4. Debug if not working
 
 If anything is broken, describe it to ChatGPT and push the fixes to GitHub and check Render.
 
-### 12. Try adding a feature
+🎉 Working? Congratulations! You have deployed a web app that uses an API service.
 
-Add a feature. Make one up! Something you would actually one. Then push to GitHub and try it on Render.
+---
+
+# Part 3: Add a feature
+
+Try adding a feature to your app. Make one up! Something you would actually one. Do it locally, then push to GitHub and try it on Render.
 
 
 
