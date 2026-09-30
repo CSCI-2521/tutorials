@@ -1,4 +1,6 @@
-# Part 1. Making and deploying a chat bot
+# Making and deploying a chat bot
+
+# Part 1. Getting it running locally
 In this tutorial, we will make a simple LLM chat bot and deploy it up to the internet on Render.com.
 
 Disclaimer: we will not follow our normal coding practices for this because it is just a demo that we are planning to throw away afterward. The point of this exercise is to practice pushing and deploying the code, not to practice agentic coding. This is a very simple app that is easy for the LLM to write, and it doesn't have any features, so it will work fine without the reviewing loop.
