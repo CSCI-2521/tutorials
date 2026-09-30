@@ -46,6 +46,8 @@ Note: if you already built your app and did not specify Python, please ask ChatG
 
 ```
 If this is not already built in Python, please rewrite it in Python.
+
+If this is not a web app, please rewrite it as a web app so I can deploy it online.
 ```
 
 We are using Python to make it the same for everyone to deploy on Render.com.
