@@ -18,28 +18,22 @@ You will prompt ChatGPT to build the app. You can say it any way you want, but t
 
 If you're using TensorX for LLM inference:
 ```
-write a chat app that talks to an LLM.
-
-write this as a web app in python that I can deploy online later.
+write a chat app that talks to an LLM. write this as a web app in python that I can deploy online later.
 
 The API address (url) is https://api.tensorx.ai/v1
+Please use this model: deepseek/deepseek-v4-flash-0731
 
-I am going to supply the API key in a .env file.
-
-Please make an .env file for me to add the API key called TENSORX_API_KEY.
+I am going to supply the API key in a .env file. Please make an .env file for me to add the API key called TENSORX_API_KEY.
 ```
 
 If you're using OpenRouter for LLM inference:
 ```
-write a chat app that talks to an LLM.
-
-write this in python.
+write a chat app that talks to an LLM. write this as a web app that I can deploy later in python.
 
 The API address (url) is https://openrouter.ai/api/v1/
+Please use this model: deepseek/deepseek-v4-flash-0731
 
-I am going to supply the API key in a .env file.
-
-Please make an .env file for me to add the API key called OPENROUTER_API_KEY.
+I am going to supply the API key in a .env file. Please make an .env file for me to add the API key called OPENROUTER_API_KEY.
 ```
 
 Note: if you already built your app and did not specify Python, please ask ChatGPT to rebuild it:
@@ -48,6 +42,12 @@ Note: if you already built your app and did not specify Python, please ask ChatG
 If this is not already built in Python, please rewrite it in Python.
 
 If this is not a web app, please rewrite it as a web app so I can deploy it online.
+```
+
+Note: if you already built your app and it's not working, you might have to tell it which model to use:
+
+```
+Please use this model: deepseek/deepseek-v4-flash-0731
 ```
 
 We are using Python to make it the same for everyone to deploy on Render.com.
