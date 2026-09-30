@@ -35,7 +35,7 @@ write a chat app that talks to an LLM.
 
 write this in python.
 
-The API address (url) is https://api.tensorx.ai/v1
+The API address (url) is https://openrouter.ai/api/v1/
 
 I am going to supply the API key in a .env file.
 
