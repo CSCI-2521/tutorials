@@ -104,9 +104,9 @@ Please commit and push.
 
 ## 9. Connect a Render Web Server
 
-1. Go to Render.com.
+### 1. Go to Render.com.
 
-2. Create a new web service
+### 2. Create a new web service
 When you are logged in, you may see the Dashboard offering to set up a service. Select "Web service"
 
 <img width="950" height="361" alt="image" src="https://github.com/user-attachments/assets/2a950f40-b8e5-45c0-8044-1fd8f651d289" />
@@ -120,29 +120,59 @@ If you don't see that, find another way to get to your Dashboard until you see t
 <img height="350" alt="image" src="https://github.com/user-attachments/assets/ed701b94-3331-4ebd-a46e-d78527693b83" />
 
 
-3. Authorize Render on Github
+### 3. Authorize Render on Github
 
 If you haven't done this already, click "GitHub" to connect your github account to Render, then click "Authorize" in the next window.
 
 The next window will ask you where to "install" render (on github.com). Click your personal account name.
 <img height="300" alt="image" src="https://github.com/user-attachments/assets/6e107204-5557-4df7-a55e-cf56971edaf3" />
 
-4. Select your new repo
+### 4. Select your new repo
 On the next page, find your new repo in the search list: 
 <img width="413" height="124" alt="image" src="https://github.com/user-attachments/assets/0142b906-3010-43ee-acf7-f62ac18bf4b5" />
 
-5. Set the Language to Python
+### 5. Set the Language to Python
 
 <img height="800" alt="image" src="https://github.com/user-attachments/assets/079321c6-1de1-4cfb-9d27-3be8745725d8" />
 
-6. Set the Root directory, Build command, and Start command
+### 6. Set the Root directory, Build command, and Start command
 
 Ask ChatGPT what to use for these fields:
 
 ```
-
+I'm putting this on Render. what should I enter for root directory, build command, and start command?
 ```
 
 Then enter the values. Yours may look different from mine:
+
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/85223d08-04fb-4360-8d90-850dae57ec35" />
+
+Be sure to choose $0
+
+<img height="300" alt="image" src="https://github.com/user-attachments/assets/a279708a-98f0-4294-9fb2-25e6cc30e8a3" />
+
+### 7. Add a secret file
+
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/d2d5afda-061a-461b-bc50-772359998506" />
+
+## 8. Call it .env, enter your API key
+<img height="380" alt="image" src="https://github.com/user-attachments/assets/41be2e5a-db74-4203-9f37-8b2eb10ea74f" />
+
+### 9. Deploy
+
+<img height="130" alt="image" src="https://github.com/user-attachments/assets/4362e8b2-d56b-4bb8-bbd9-4307b4ee64c4" />
+
+### 10. Try it out
+
+<img height="200" alt="image" src="https://github.com/user-attachments/assets/e0cb2fe6-3ed8-4a06-b723-f5ca72032a6b" />
+
+### 11. Debug if not working
+
+If anything is broken, describe it to ChatGPT and push the fixes to GitHub and check Render.
+
+### 12. Try adding a feature
+
+Add a feature. Make one up! Something you would actually one. Then push to GitHub and try it on Render.
+
 
 
