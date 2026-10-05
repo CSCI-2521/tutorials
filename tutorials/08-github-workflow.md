@@ -35,6 +35,8 @@ The agent should confirm and should give you a path to the worktree folder on yo
 Add a 😀 emoji to the very top of README.md.
 If there is no README.md, create one with just the emoji at the top.
 Then commit and push. Be quick, no tests.
+
+Sign your work "Agent 1" and include your model name.
 ```
 
 2. Wait for it to finish.
