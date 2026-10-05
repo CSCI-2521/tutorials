@@ -2,7 +2,7 @@
 
 In this tutorial you will practice the basic GitHub workflow using AI coding agents in VS Code and ChatGPT. The agents will run the commands for using GitHub, and you will check every step on GitHub yourself.
 
-Five words you will see the whole way through:
+Six words you will see the whole way through:
 
 - **Branch**: a copy of your project where changes can be made safely, without touching the main version. You can make a new branch on github.com, or an agent can make one for you.
 - **Worktree**: a folder on your computer that holds one branch. Different branches live in different folders, so agents can't try to edit the same file. Agents will create these for you.
