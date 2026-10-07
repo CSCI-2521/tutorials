@@ -97,7 +97,10 @@ APP_BASE_URL=http://127.0.0.1:5000
 NEON_AUTH_BASE_URL="https://..."
 ```
 
-# 5. Put the secrets in Render
+# 5. Create a web app on Render (already done in tutorial 5)
+Render provides free permanent web apps. You should have done this in [tutorial 05 Part 1](https://github.com/CSCI-2521/tutorials/blob/main/tutorials/05-web-hosting-setup.md); if not, please go there and do Part 2.
+
+# 6. Put the secrets in Render
 
 1. Go to your web services page and click "Environment"
 
@@ -111,7 +114,7 @@ NEON_AUTH_BASE_URL="https://..."
    
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/858423e9-7e29-4af4-8f66-9e54b0d2934e" />
 
-# 6. Finish setting up "Better Auth" in Neon
+# 7. Finish setting up "Better Auth" in Neon
 1. Go to [render.com](https://render.com) and copy your app's URL:
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/f78941dd-baff-4e55-ab76-f087c77bbc73" />
@@ -134,7 +137,7 @@ You can set it up later if needed. It's a whole extra set of steps.
 10. Turn off Organizations, turn on magic links with new users:
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/6ac6b3f1-3610-4962-b1a1-0bf6330917d8" />
 
-# 7. Tell your agent to implement Neon-managed auth:
+# 8. Tell your agent to implement Neon-managed auth:
 
 1. Go back to ChatGPT and start a new thread in your project
 
@@ -159,7 +162,7 @@ for them to log out if they are logged in. You will also need a place
 for them to enter the secret OTP code they are emailed when logging in.
 ```
 
-# 8. Test it out locally.
+# 9. Test it out locally.
 1. Tell Agent 1 (e.g. ChatGPT) to start the web app on your computer and give you a link:
 
 ```
@@ -170,7 +173,7 @@ Please start the web app locally and give me a link.
 
 If it doesn't work, tell Agent 1 and tell it to check the server logs. If it does work, try it on Render.com.
 
-# 9. Test it on Render
+# 10. Test it on Render
 1. Tell Agent 1 to commit the changes and push to GitHub. 
 
 ```
@@ -185,7 +188,7 @@ If it doesn't work, go back through this tutorial and double check each step; al
 
 If it does work, then congratulations! You can now have users. 🎉
 
-# 10. See your users on Neon
+# 11. See your users on Neon
 
 1. Go to Neon. Click "Better Auth" on the left. You should see the new user you created. 
 
