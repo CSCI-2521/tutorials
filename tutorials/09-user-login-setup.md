@@ -40,8 +40,7 @@ Neon provides free permanent databases. You should have done this in [tutorial 0
 1. In Neon, go to your database, and click "Connect":
 <img width="140" alt="image" src="https://github.com/user-attachments/assets/f700090a-d53a-43e1-94a5-19c1e4beae07" />
 
-2. Copy the Auth URL:
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/e72f2457-8495-4a06-ac35-a9fd4e0b527a" />
+2. Copy the Connection URL (not the Auth URL).
 
 3. Go back to your .env file in VS Code. Paste this into your .env file. Save the file.
 
