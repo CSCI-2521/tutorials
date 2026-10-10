@@ -36,7 +36,7 @@ Add a 😀 emoji to the very top of README.md.
 If there is no README.md, create one with just the emoji at the top.
 Then commit and push. Be quick, no tests.
 
-Sign your work "Agent 1" and include your model name.
+At the end of your comment on the PR, say, "Agent 1" and include your model name.
 ```
 
 2. Wait for it to finish.
@@ -105,7 +105,7 @@ Please see review comment on PR. Please fix.
 Then mark the pull request as ready for review.
 
 Add a brief comment to the PR explaining what you did.
-Sign the comment "Agent 1" and include your model name.
+At the end of your comment on the PR, say, "Agent 1" and include your model name.
 ```
 
 2. Go back to the PR, refresh, and see the new comment.
@@ -141,7 +141,7 @@ Post your review as a comment on the PR.
 In the review, request one change:
 replace the 😀 emoji with a 🤗 emoji.
 
-Sign your comment "Agent 2" and include your model name.
+At the end of your comment on the PR, say, "Agent 2" and include your model name.
 ```
 
 The agent should confirm. This cost $0.01!
@@ -164,7 +164,7 @@ The agent should confirm. This cost $0.01!
 Please see review comment on PR. Please fix.
 Then mark the pull request as ready for review.
 
-Sign your commit "Agent 1" and include your model name.
+At the end of your comment on the PR, say, "Agent 1" and include your model name.
 ```
 
 2. When it is done, go back to your PR page on GitHub, refresh, and confirm there is a final comment from Agent 1.
