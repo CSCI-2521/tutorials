@@ -36,7 +36,7 @@ Add a 😀 emoji to the very top of README.md.
 If there is no README.md, create one with just the emoji at the top.
 Then commit and push. Be quick, no tests.
 
-At the end of your comment on the PR, say, "Agent 1" and include your model name.
+At the end of your commit message or comment, say, "Agent 1" and include your model name.
 ```
 
 2. Wait for it to finish.
@@ -100,9 +100,6 @@ The smiley face should be gone from the README.md file.
 ```
 Open a draft pull request from this branch into main.
 Give me a direct link to the PR.
-
-Please see review comment on PR. Please fix.
-Then mark the pull request as ready for review.
 
 Add a brief comment to the PR explaining what you did.
 At the end of your comment on the PR, say, "Agent 1" and include your model name.
